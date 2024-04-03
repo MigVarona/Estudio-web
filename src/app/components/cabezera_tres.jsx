@@ -10,7 +10,7 @@ export default function Cabezera_tres() {
   return (
     <div>
       <nav>
-        <div className="flex items-center  justify-center flex-col">
+        <div className="overflow-hidden flex items-center  justify-center flex-col">
           <div className="flex items-center max-w-6xl justify-center">
             <div className={roboto.className}>
               <h1

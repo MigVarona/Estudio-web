@@ -15,7 +15,7 @@ export default function Cabezera() {
   return (
     <div>
       <nav>
-        <div className="flex items-center  justify-center flex-col">
+        <div className=" overflow-hidden flex items-center  justify-center flex-col">
           <div className="border-b  border-black w-full max-w-6xl"></div>
           <div className="flex items-center max-w-6xl justify-center">
             

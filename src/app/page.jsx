@@ -19,8 +19,8 @@ export default function Home() {
       <Cabezera_dos />
       <Cabezera_tres />
       <Cabezera_cuatro />
-      <Cabezera />
-      <Cabezera_dos />
+      <Cabezera className=".hidden" />
+      <Cabezera_dos className="" />
 
       
     </div>

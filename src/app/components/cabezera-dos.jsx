@@ -10,7 +10,7 @@ function Cabezera_dos() {
     return ( 
 
         <nav className="">
-        <div className="flex items-center  justify-center flex-col">
+        <div className="overflow-hidden flex items-center  justify-center flex-col">
           <div className="flex items-center  max-w-5xl justify-center">
            
               <h1
