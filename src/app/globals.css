@@ -2,11 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 .vertical-line {
   border-left: 1.5px solid rgb(0, 0, 0);
-  height: 100px;
-  margin-left: 19px;
+  
+  margin-left: 20px;
 }
+
+
+
+
+
+
+
+
 
 
 
