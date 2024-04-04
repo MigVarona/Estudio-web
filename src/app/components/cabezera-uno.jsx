@@ -32,7 +32,7 @@ export default function Cabezera() {
                   color: "darkorange"
                 }}
               >
-                HOME
+                <span className="hover:text-yellow-300">HOME</span>
               </h1>
               </Link>
             </div>
