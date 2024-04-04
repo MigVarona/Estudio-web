@@ -12,6 +12,8 @@ export default function Home() {
       <Cabezera_dos />
       
       <Work />
+      <Cabezera_tres />
+      <Cabezera_cuatro />
       </div>
         
       

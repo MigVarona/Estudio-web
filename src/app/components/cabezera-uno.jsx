@@ -18,13 +18,13 @@ export default function Cabezera() {
   return (
     <div>
       <nav>
-        <div className=" overflow-hidden flex items-center  justify-center flex-col">
-          <div className="flex items-center  max-w-6xl justify-center">
+        <div className=" overflow-hidden  flex items-center  justify-center flex-col">
+          <div className="small flex items-center  max-w-6xl justify-center">
             
             <div>
               <Link href="/">
               <h1
-                className="font-bold mr-17 text-5xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl m-0 p-0 leading-none"
+                className="font-bold text-5xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl m-0 p-0 leading-none"
                 style={{
                   letterSpacing: "-0.1em",
                   marginBottom: "0",

@@ -9,7 +9,11 @@
   margin-left: 20px;
 }
 
-
+@media (max-width: 640px) {
+  .small {
+    margin-right: 15px;
+  }
+}
 
 
 
