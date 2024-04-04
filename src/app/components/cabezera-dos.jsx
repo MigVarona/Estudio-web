@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Roboto } from "next/font/google";
 
 const roboto = Roboto({
@@ -25,6 +26,7 @@ function Cabezera_dos() {
               </h1>
            
             <div className="vertical-line">
+              <Link href="work">
               <h1
                 className="font-bold ml-2 text-5xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl m-0 p-0 leading-none"
                 style={{
@@ -36,6 +38,7 @@ function Cabezera_dos() {
               >
                 WORK
               </h1>
+              </Link>
             </div>
             <div className="vertical-line">
               <h1

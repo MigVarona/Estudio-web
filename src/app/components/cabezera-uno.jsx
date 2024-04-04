@@ -16,7 +16,6 @@ export default function Cabezera() {
     <div>
       <nav>
         <div className=" overflow-hidden flex items-center  justify-center flex-col">
-          <div className="border-b  border-black w-full max-w-6xl"></div>
           <div className="flex items-center max-w-6xl justify-center">
             
             <div>
@@ -72,7 +71,7 @@ export default function Cabezera() {
               </h1>
             </div>
           </div>
-          <div className="border-b  border-black w-full max-w-6xl"></div>
+          <div className="border-b  border-black w-full max-w-7xl"></div>
         </div>
       </nav>
     </div>
