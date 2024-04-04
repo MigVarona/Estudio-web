@@ -1,3 +1,6 @@
+import Link from "next/link";
+
+
 
 import { Roboto } from "next/font/google";
 
@@ -16,11 +19,12 @@ export default function Cabezera() {
     <div>
       <nav>
         <div className=" overflow-hidden flex items-center  justify-center flex-col">
-          <div className="flex items-center max-w-6xl justify-center">
+          <div className="flex items-center  max-w-6xl justify-center">
             
             <div>
+              <Link href="/">
               <h1
-                className="font-bold mr-17 text-5xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl m-0 p-0 leading-none"
+                className="font-bold mr-17 text-5xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl m-0 p-0 leading-none"
                 style={{
                   letterSpacing: "-0.1em",
                   marginBottom: "0",
@@ -30,6 +34,7 @@ export default function Cabezera() {
               >
                 HOME
               </h1>
+              </Link>
             </div>
             <div className="vertical-line">
               <h1
