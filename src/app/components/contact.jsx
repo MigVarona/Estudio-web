@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
-import { sendEmail } from '../../../../utils/send-email';
+import { sendEmail } from '../../../../Estudio-web/utils/send-email';
 
 const Contact = () => {
   const { register, handleSubmit } = useForm();
