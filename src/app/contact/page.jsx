@@ -1,10 +1,16 @@
 import Contact from '../components/contact';
+import Cabezera from '../components/cabezera-uno';
+import Cabezera_dos from '../components/cabezera-dos';
 
 
 export default function Home() {
   return (
-    <main className='flex min-h-screen flex-col items-center justify-center p-24 bg-white'>
+    <div>
+      <Cabezera />
+      <Cabezera_dos />
+    <main className='flex  flex-col items-center justify-center  bg-white'>
       <Contact />
     </main>
+    </div>
   );
 }
