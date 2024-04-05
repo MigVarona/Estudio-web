@@ -1,4 +1,4 @@
-import { FormData } from '../Estudio-web/src/app/components/contact';
+import { FormData } from '../src/app/components/contact';
 
 export function sendEmail(data) {
     const apiEndpoint = '/api/email';
