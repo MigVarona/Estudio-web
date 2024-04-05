@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Roboto } from "next/font/google";
 
 const roboto = Roboto({
@@ -37,6 +38,7 @@ export default function Cabezera_tres() {
               </h1>
             </div>
             <div className="vertical-line">
+              <Link href="/contact">
               <h1
                 className="font-bold ml-2 text-5xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl m-0 p-0 leading-none"
                 style={{
@@ -48,6 +50,7 @@ export default function Cabezera_tres() {
               >
                 CONTACT
               </h1>
+              </Link>
             </div>
             <div className="vertical-line">
               <h1
