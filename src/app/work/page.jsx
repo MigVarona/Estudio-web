@@ -1,19 +1,20 @@
 import Cabezera from "../components/cabezera-uno";
 import Cabezera_dos from "../components/cabezera-dos";
-import Cabezera_tres from "../components/cabezera_tres";
-import Cabezera_cuatro from "../components/cabezera_cuatro";
+import Cabezera_Cinco from "../components/cabezera-cinco"
+import "../../app/cabezera.css"
+
+
 import Work from "../components/work";
 
 export default function Home() {
   return (
     <div>
     
-      <Cabezera />
+      <Cabezera_Cinco />
       <Cabezera_dos />
       
       <Work />
-      <Cabezera_tres />
-      <Cabezera_cuatro />
+     
       </div>
         
       
