@@ -54,7 +54,7 @@ const Contact = () => {
       </div>
       <div>
         <button
-          className={`rounded-md bg-black py-3 px-8 text-base font-semibold text-white outline-none ${isSubmitting ? 'cursor-not-allowed opacity-50' : 'hover:shadow-form'}`}
+          className={`rounded-md bg-black mb-20 py-3 px-8 text-base font-semibold text-white outline-none ${isSubmitting ? 'cursor-not-allowed opacity-50' : 'hover:shadow-form'}`}
           type='submit'
           disabled={isSubmitting}
         >
