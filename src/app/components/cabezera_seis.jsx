@@ -46,7 +46,7 @@ export default function Cabezera_Seis() {
                   marginTop: "0",
                 }}
               >
-                RESUME
+                LD
               </h1>
             </div>
             <div className="vertical-line">
@@ -60,7 +60,7 @@ export default function Cabezera_Seis() {
 
                 }}
               >
-                LINKEDIN
+                GH
               </h1>
             </div>
             <div className="vertical-line">
