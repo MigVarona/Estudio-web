@@ -1,19 +1,17 @@
 import Contact from '../components/contact';
-import Cabezera from '../components/cabezera-uno';
-import Cabezera_dos from '../components/cabezera-dos';
-import Cabezera_tres from "../components/cabezera_tres";
-import Cabezera_cuatro from "../components/cabezera_cuatro";
+
+import Cabezera_Seis from "../components/cabezera_seis";
+import Cabezera_Cinco from "../components/cabezera-cinco"
 
 
 export default function Home() {
   return (
     <div>
-      <Cabezera />
-      <Cabezera_dos />
+      <Cabezera_Cinco />
+      <Cabezera_Seis />
     <main className='flex  flex-col items-center justify-center  bg-white'>
       <Contact />
-      <Cabezera_tres />
-      <Cabezera_cuatro />
+    
     </main>
     </div>
   );
