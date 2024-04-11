@@ -1,4 +1,5 @@
 import Link from "next/link";
+import "../../app/cabezera.css"
 
 
 
@@ -24,7 +25,7 @@ export default function Cabezera_Seis() {
             <div>
               <Link href="/">
               <h1
-                className="font-bold text-5xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl m-0 p-0 leading-none"
+                className="texto font-bold text-5xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl m-0 p-0 leading-none"
                 style={{
                   letterSpacing: "-0.1em",
                   marginBottom: "0",
@@ -38,7 +39,7 @@ export default function Cabezera_Seis() {
             </div>
             <div className="vertical-line">
               <h1
-                className="animate__animated animate__fadeIn animate__delay-1s font-bold ml-2 text-5xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl m-0 p-0 leading-none"
+                className="texto font-bold ml-2 text-5xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl m-0 p-0 leading-none"
                 style={{
                   letterSpacing: "-0.1em",
                   marginBottom: "0",
@@ -50,7 +51,7 @@ export default function Cabezera_Seis() {
             </div>
             <div className="vertical-line">
               <h1
-                className="font-bold ml-2 text-5xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl m-0 p-0 leading-none"
+                className="texto font-bold ml-2 text-5xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl m-0 p-0 leading-none"
                 style={{
                   letterSpacing: "-0.1em",
                   marginBottom: "0",
@@ -64,7 +65,7 @@ export default function Cabezera_Seis() {
             </div>
             <div className="vertical-line">
               <h1
-                className="animate__animated animate__fadeInRight font-bold ml-2 text-5xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl m-0 p-0 leading-none"
+                className="texto font-bold ml-2 text-5xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl m-0 p-0 leading-none"
                 style={{
                   letterSpacing: "-0.1em",
                   marginBottom: "0",
