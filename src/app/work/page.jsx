@@ -1,10 +1,11 @@
 import Cabezera from "../components/cabezera-uno";
 import Cabezera_dos from "../components/cabezera-dos";
 import Cabezera_Cinco from "../components/cabezera-cinco"
+import Work from "../components/work";
 import "../../app/cabezera.css"
 
 
-import Work from "../components/work";
+
 
 export default function Home() {
   return (
