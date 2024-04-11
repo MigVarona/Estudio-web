@@ -1,8 +1,9 @@
-import Cabezera from "../components/cabezera-uno";
-import Cabezera_dos from "../components/cabezera-dos";
+
+
+import Cabezera_Seis from "../components/cabezera_seis";
 import Cabezera_Cinco from "../components/cabezera-cinco"
 import Work from "../components/work";
-import "../../app/cabezera.css"
+
 
 
 
@@ -12,7 +13,7 @@ export default function Home() {
     <div>
     
       <Cabezera_Cinco />
-      <Cabezera_dos />
+      <Cabezera_Seis />
       
       <Work />
      
