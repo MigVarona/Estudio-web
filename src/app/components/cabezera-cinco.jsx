@@ -25,7 +25,7 @@ export default function Cabezera_Cinco() {
             <div>
               <Link href="/">
               <h1
-                className="texto font-bold text-5xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl m-0 p-0 leading-none"
+                className="texto  font-bold text-5xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl m-0 p-0 leading-none"
                 style={{
                   letterSpacing: "-0.1em",
                   marginBottom: "0",
@@ -40,7 +40,7 @@ export default function Cabezera_Cinco() {
             
             <div className="vertical-line">
               <h1
-                className="texto font-bold ml-2 text-5xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl m-0 p-0 leading-none"
+                className="texto  font-bold ml-2 text-5xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl m-0 p-0 leading-none"
                 style={{
                   letterSpacing: "-0.1em",
                   marginBottom: "0",
@@ -54,7 +54,7 @@ export default function Cabezera_Cinco() {
             </div>
             <div className="vertical-line">
               <h1
-                className="texto font-bold ml-2 text-5xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl m-0 p-0 leading-none"
+                className="texto  font-bold ml-2 text-5xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-8xl m-0 p-0 leading-none"
                 style={{
                   letterSpacing: "-0.1em",
                   marginBottom: "0",

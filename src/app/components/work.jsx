@@ -1,29 +1,69 @@
 import Image from "next/image";
 
 function Work() {
-  return ( 
-    <section className="flex items-center justify-center">
-      <div className="flex flex-col">
-        {/* Primer par de imágenes */}
-        <div className="flex flex-col md:flex-row justify-center"> 
-          <div className="w-full md:w-1/2 text-center mb-4 md:mb-0"> 
-            <Image src="/work2.png" alt="Work 1" width={700} height={500} />
-          </div>
-          <div className="w-full md:w-1/2 text-center"> 
-            <Image src="/work8.png" alt="Work 2" width={700} height={500} />
-          </div>
-        </div>
-        {/* Segundo par de imágenes */}
-        <div className="flex flex-col md:flex-row justify-center"> 
-          <div className="w-full md:w-1/2 text-center mb-4 md:mb-0"> 
-            <Image src="/work9.png" alt="Work 3" width={700} height={500} />
-          </div>
-          <div className="w-full md:w-1/2 text-center"> 
-            <Image src="/work1.png" alt="Work 4" width={700} height={500} />
-          </div>
+  return (
+    <div className="mt-10 flex justify-center">
+
+<div className="carousel max-w-7xl" style={{ width: '1500px', height: '600px' }}>
+
+      <div id="slide1" className="carousel-item relative w-full">
+        <img
+          src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg"
+          className="w-full"
+        />
+        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide4" className="btn btn-circle">
+            ❮
+          </a>
+          <a href="#slide2" className="btn btn-circle">
+            ❯
+          </a>
         </div>
       </div>
-    </section>
+      <div id="slide2" className="carousel-item relative w-full">
+        <img
+          src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
+          className="w-full"
+        />
+        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide1" className="btn btn-circle">
+            ❮
+          </a>
+          <a href="#slide3" className="btn btn-circle">
+            ❯
+          </a>
+        </div>
+      </div>
+      <div id="slide3" className="carousel-item relative w-full">
+        <img
+          src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg"
+          className="w-full"
+        />
+        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide2" className="btn btn-circle">
+            ❮
+          </a>
+          <a href="#slide4" className="btn btn-circle">
+            ❯
+          </a>
+        </div>
+      </div>
+      <div id="slide4" className="carousel-item relative w-full">
+        <img
+          src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
+          className="w-full"
+        />
+        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide3" className="btn btn-circle">
+            ❮
+          </a>
+          <a href="#slide1" className="btn btn-circle">
+            ❯
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
   );
 }
 
