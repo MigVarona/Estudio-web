@@ -5,11 +5,11 @@ function Work() {
     <div className="mt-10 flex justify-center">
       <div
         className="carousel max-w-7xl"
-        style={{ width: "1500px", height: "600px" }}
+        
       >
         <div id="slide1" className="carousel-item relative w-full">
           <img
-            src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg"
+            src="/work2.png"
             className="w-full"
           />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -23,7 +23,7 @@ function Work() {
         </div>
         <div id="slide2" className="carousel-item relative w-full">
           <img
-            src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
+            src="/work8.png"
             className="w-full"
           />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
