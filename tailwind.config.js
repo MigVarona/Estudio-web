@@ -6,6 +6,9 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     
   ],
+
+  plugins: [require("daisyui")],
+
   theme: {
     extend: {
       backgroundImage: {
@@ -15,5 +18,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("daisyui")],
+  
 };
